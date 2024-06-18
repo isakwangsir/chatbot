@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f7f7f7;
+}
+
+.background-image {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.jsnZA56R4gpcABh5KmrkAwHaEK&pid=Api&P=0&h=180'); /* Ganti URL dengan URL gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 450px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.title {
+    background: #6c63ff;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form {
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.inbox {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.user-inbox {
+    justify-content: flex-end;
+}
+
+.user-inbox .msg-header {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.bot-inbox .msg-header {
+    background: #e0e0e0;
+    color: #000;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #6c63ff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-header {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.typing-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.input-data {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-data input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+}
+
+.input-data button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #6c63ff;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.input-data button:hover {
+    background: #5245cc;
+}
